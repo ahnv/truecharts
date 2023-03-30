@@ -1,0 +1,66 @@
+{
+  "charts": {},
+  "test": {},
+  "stable": {
+    "plex": {
+      "name": "plex",
+      "categories": [
+        "media"
+      ],
+      "app_readme": "<p>Plex Media Server</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/plex\">https://truecharts.org/charts/stable/plex</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/plex",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "12.0.15",
+      "latest_app_version": "1.31.1.673",
+      "latest_human_version": "1.31.1.673_12.0.15",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png"
+    },
+    "radarr": {
+      "name": "radarr",
+      "categories": [
+        "media"
+      ],
+      "app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/radarr",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "13.0.15",
+      "latest_app_version": "4.3.2.6857",
+      "latest_human_version": "4.3.2.6857_13.0.15",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
+    },
+    "sonarr": {
+      "name": "sonarr",
+      "categories": [
+        "media"
+      ],
+      "app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/sonarr",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "13.0.8",
+      "latest_app_version": "3.0.9.1549",
+      "latest_human_version": "3.0.9.1549_13.0.8",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
+    }
+  },
+  "incubator": {},
+  "dependency": {},
+  "enterprise": {
+    "traefik": {
+      "name": "traefik",
+      "categories": [
+        "network"
+      ],
+      "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "17.0.12",
+      "latest_app_version": "2.9.8",
+      "latest_human_version": "2.9.8_17.0.12",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
+    }
+  }
+}
