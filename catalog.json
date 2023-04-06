@@ -57,9 +57,9 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "17.0.12",
+      "latest_version": "17.0.14",
       "latest_app_version": "2.9.8",
-      "latest_human_version": "2.9.8_17.0.12",
+      "latest_human_version": "2.9.8_17.0.14",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
     },
     "authelia": {
@@ -71,9 +71,9 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/authelia",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "15.0.13",
+      "latest_version": "15.1.1",
       "latest_app_version": "4.37.5",
-      "latest_human_version": "4.37.5_15.0.13",
+      "latest_human_version": "4.37.5_15.1.1",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png"
     }
   }
