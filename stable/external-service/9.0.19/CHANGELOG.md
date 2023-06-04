@@ -4,6 +4,19 @@
 
 
 
+## [external-service-9.0.19](https://github.com/truecharts/charts/compare/external-service-9.0.18...external-service-9.0.19) (2023-06-04)
+
+### Chore
+
+- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [external-service-9.0.18](https://github.com/truecharts/charts/compare/external-service-9.0.17...external-service-9.0.18) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [external-service-9.0.9](https://github.com/truecharts/charts/compare/external-service-9.0.8...external-service-9.0.9) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8153](https://github.com/truecharts/charts/issues/8153))
-  
-  
-
-
-## [external-service-9.0.8](https://github.com/truecharts/charts/compare/external-service-9.0.7...external-service-9.0.8) (2023-04-23)
-
-### Fix
