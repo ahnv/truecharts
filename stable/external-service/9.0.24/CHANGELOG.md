@@ -4,6 +4,19 @@
 
 
 
+## [external-service-9.0.24](https://github.com/truecharts/charts/compare/external-service-9.0.23...external-service-9.0.24) (2023-06-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/alpine to latest ([#9901](https://github.com/truecharts/charts/issues/9901))
+  
+  ### Fix
+
+- add missing `additional_attrs: true` ([#9581](https://github.com/truecharts/charts/issues/9581))
+  
+  
+
+
 ## [external-service-9.0.23](https://github.com/truecharts/charts/compare/external-service-9.0.22...external-service-9.0.23) (2023-06-13)
 
 ### Chore
@@ -83,17 +96,4 @@
 ## [external-service-9.0.15](https://github.com/truecharts/charts/compare/external-service-9.0.14...external-service-9.0.15) (2023-05-22)
 
 ### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [external-service-9.0.14](https://github.com/truecharts/charts/compare/external-service-9.0.13...external-service-9.0.14) (2023-05-16)
-
-### Chore
-
-- update helm general non-major ([#8979](https://github.com/truecharts/charts/issues/8979))
-  
-  
 
