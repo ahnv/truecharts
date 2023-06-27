@@ -4,6 +4,15 @@
 
 
 
+## [overseerr-9.0.23](https://github.com/truecharts/charts/compare/overseerr-9.0.22...overseerr-9.0.23) (2023-06-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/overseerr to v1.33.0 ([#9949](https://github.com/truecharts/charts/issues/9949))
+  
+  
+
+
 ## [overseerr-9.0.22](https://github.com/truecharts/charts/compare/overseerr-9.0.21...overseerr-9.0.22) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [overseerr-9.0.13](https://github.com/truecharts/charts/compare/overseerr-9.0.12...overseerr-9.0.13) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
 
