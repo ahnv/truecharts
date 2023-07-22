@@ -97,9 +97,235 @@
         "https://github.com/Sonarr/Sonarr"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
+    },
+    "external-service": {
+      "app_readme": "<p>Allow external services to be used like Apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/external-service\">https://truecharts.org/charts/stable/external-service</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "networking"
+      ],
+      "description": "Allow external services to be used like Apps.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/external-service",
+      "location": "/home/runner/work/catalog/catalog/stable/external-service",
+      "latest_version": "9.0.25",
+      "latest_app_version": "latest",
+      "latest_human_version": "latest_9.0.25",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "external-service",
+      "recommended": false,
+      "title": "External-service",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/external-service"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png"
+    },
+    "owncloud-ocis": {
+      "app_readme": "<p>ownCloud Infinite Scale is a self-hosted file sync and share server.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/owncloud-ocis\">https://truecharts.org/charts/stable/owncloud-ocis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "ownCloud Infinite Scale is a self-hosted file sync and share server.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/owncloud-ocis",
+      "location": "/home/runner/work/catalog/catalog/stable/owncloud-ocis",
+      "latest_version": "11.0.15",
+      "latest_app_version": "3.0.0",
+      "latest_human_version": "3.0.0_11.0.15",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "owncloud-ocis",
+      "recommended": false,
+      "title": "Owncloud-ocis",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/owncloud-ocis",
+        "https://owncloud.dev/ocis/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/owncloud-ocis.png"
+    },
+    "heimdall": {
+      "app_readme": "<p>An Application dashboard and launcher</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/heimdall\">https://truecharts.org/charts/stable/heimdall</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "organizers"
+      ],
+      "description": "An Application dashboard and launcher",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/heimdall",
+      "location": "/home/runner/work/catalog/catalog/stable/heimdall",
+      "latest_version": "15.0.25",
+      "latest_app_version": "2.5.6",
+      "latest_human_version": "2.5.6_15.0.25",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "heimdall",
+      "recommended": false,
+      "title": "Heimdall",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/heimdall",
+        "https://github.com/linuxserver/Heimdall/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.png"
+    },
+    "overseerr": {
+      "app_readme": "<p>Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/overseerr\">https://truecharts.org/charts/stable/overseerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/overseerr",
+      "location": "/home/runner/work/catalog/catalog/stable/overseerr",
+      "latest_version": "9.0.24",
+      "latest_app_version": "1.33.0",
+      "latest_human_version": "1.33.0_9.0.24",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "overseerr",
+      "recommended": false,
+      "title": "Overseerr",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/overseerr",
+        "https://github.com/sct/overseerr"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png"
+    },
+    "qbittorrent": {
+      "app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/qbittorrent\">https://truecharts.org/charts/stable/qbittorrent</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/qbittorrent",
+      "location": "/home/runner/work/catalog/catalog/stable/qbittorrent",
+      "latest_version": "15.0.29",
+      "latest_app_version": "4.5.4",
+      "latest_human_version": "4.5.4_15.0.29",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "qbittorrent",
+      "recommended": false,
+      "title": "Qbittorrent",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent",
+        "https://github.com/qbittorrent/qBittorrent"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
+    },
+    "prowlarr": {
+      "app_readme": "<p>Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/prowlarr\">https://truecharts.org/charts/stable/prowlarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/prowlarr",
+      "location": "/home/runner/work/catalog/catalog/stable/prowlarr",
+      "latest_version": "11.1.0",
+      "latest_app_version": "1.7.2.3710",
+      "latest_human_version": "1.7.2.3710_11.1.0",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "prowlarr",
+      "recommended": false,
+      "title": "Prowlarr",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr",
+        "https://github.com/Prowlarr/Prowlarr",
+        "https://github.com/k8s-at-home/container-images"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png"
     }
   },
-  "incubator": {},
+  "incubator": {
+    "authentik": {
+      "app_readme": "<p>Authentik is an open-source Identity Provider focused on flexibility and versatility.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/authentik\">https://truecharts.org/charts/incubator/authentik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "authentication"
+      ],
+      "description": "Authentik is an open-source Identity Provider focused on flexibility and versatility.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/incubator/authentik",
+      "location": "/home/runner/work/catalog/catalog/incubator/authentik",
+      "latest_version": "13.0.6",
+      "latest_app_version": "2023.5.3",
+      "latest_human_version": "2023.5.3_13.0.6",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "authentik",
+      "recommended": false,
+      "title": "Authentik",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/incubator/authentik",
+        "https://github.com/goauthentik/authentik",
+        "https://goauthentik.io/docs/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/authentik.png"
+    }
+  },
   "dependency": {},
   "enterprise": {
     "traefik": {
@@ -135,6 +361,71 @@
         "https://traefik.io/"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
+    },
+    "authelia": {
+      "app_readme": "<p>Authelia is a Single Sign-On Multi-Factor portal for web apps</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/authelia\">https://truecharts.org/charts/enterprise/authelia</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "security"
+      ],
+      "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/enterprise/authelia",
+      "location": "/home/runner/work/catalog/catalog/enterprise/authelia",
+      "latest_version": "16.0.0",
+      "latest_app_version": "4.37.5",
+      "latest_human_version": "4.37.5_16.0.0",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "authelia",
+      "recommended": false,
+      "title": "Authelia",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/enterprise/authelia",
+        "https://github.com/authelia/chartrepo",
+        "https://github.com/authelia/authelia"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png"
+    },
+    "clusterissuer": {
+      "app_readme": "<p>Certificate management for Kubernetes</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/clusterissuer\">https://truecharts.org/charts/enterprise/clusterissuer</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "core"
+      ],
+      "description": "Certificate management for Kubernetes",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/enterprise/clusterissuer",
+      "location": "/home/runner/work/catalog/catalog/enterprise/clusterissuer",
+      "latest_version": "2.0.1",
+      "latest_app_version": "latest",
+      "latest_human_version": "latest_2.0.1",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "clusterissuer",
+      "recommended": false,
+      "title": "Clusterissuer",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/enterprise/clusterissuer",
+        "https://cert-manager.io/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png"
     }
   }
 }
