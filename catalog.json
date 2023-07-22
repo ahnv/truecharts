@@ -1,8 +1,14 @@
 {
   "charts": {},
   "test": {},
-  "stable": {},
+  "stable": {
+    "plex": null,
+    "radarr": null,
+    "sonarr": null
+  },
   "incubator": {},
   "dependency": {},
-  "enterprise": {}
+  "enterprise": {
+    "traefik": null
+  }
 }
