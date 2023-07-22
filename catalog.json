@@ -2,13 +2,139 @@
   "charts": {},
   "test": {},
   "stable": {
-    "plex": null,
-    "radarr": null,
-    "sonarr": null
+    "plex": {
+      "app_readme": "<p>Plex Media Server</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/plex\">https://truecharts.org/charts/stable/plex</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "Plex Media Server",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/plex",
+      "location": "/home/runner/work/catalog/catalog/stable/plex",
+      "latest_version": "13.0.35",
+      "latest_app_version": "1.32.5.732",
+      "latest_human_version": "1.32.5.732_13.0.35",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "plex",
+      "recommended": false,
+      "title": "Plex",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/plex",
+        "https://github.com/k8s-at-home/container-images/pkgs/container/plex"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png"
+    },
+    "radarr": {
+      "app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "A fork of Sonarr to work with movies à la Couchpotato",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/radarr",
+      "location": "/home/runner/work/catalog/catalog/stable/radarr",
+      "latest_version": "16.1.0",
+      "latest_app_version": "4.6.4.7568",
+      "latest_human_version": "4.6.4.7568_16.1.0",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "radarr",
+      "recommended": false,
+      "title": "Radarr",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/radarr",
+        "https://github.com/Radarr/Radarr"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
+    },
+    "sonarr": {
+      "app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "Smart PVR for newsgroup and bittorrent users",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/sonarr",
+      "location": "/home/runner/work/catalog/catalog/stable/sonarr",
+      "latest_version": "15.1.1",
+      "latest_app_version": "3.0.10.156",
+      "latest_human_version": "3.0.10.156_15.1.1",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "sonarr",
+      "recommended": false,
+      "title": "Sonarr",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/sonarr",
+        "https://github.com/Sonarr/Sonarr"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
+    }
   },
   "incubator": {},
   "dependency": {},
   "enterprise": {
-    "traefik": null
+    "traefik": {
+      "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "network"
+      ],
+      "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/enterprise/traefik",
+      "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
+      "latest_version": "19.0.0",
+      "latest_app_version": "2.10.1",
+      "latest_human_version": "2.10.1_19.0.0",
+      "last_update": "2023-07-22 12:44:40",
+      "name": "traefik",
+      "recommended": false,
+      "title": "Traefik",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/enterprise/traefik",
+        "https://github.com/traefik/traefik",
+        "https://github.com/traefik/traefik-helm-chart",
+        "https://traefik.io/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
+    }
   }
 }
