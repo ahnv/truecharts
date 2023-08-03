@@ -654,6 +654,37 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png"
     },
+    "zerotier": {
+      "app_readme": "<p>ZeroTier is a smart programmable Ethernet switch for planet Earth</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/zerotier\">https://truecharts.org/charts/stable/zerotier</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "network"
+      ],
+      "description": "ZeroTier is a smart programmable Ethernet switch for planet Earth",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/zerotier",
+      "location": "/home/runner/work/catalog/catalog/stable/zerotier",
+      "latest_version": "6.0.0",
+      "latest_app_version": "1.10.6",
+      "latest_human_version": "1.10.6_6.0.0",
+      "last_update": "2023-08-03 09:58:27",
+      "name": "zerotier",
+      "recommended": false,
+      "title": "Zerotier",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/stable/zerotier"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/zerotier.png"
+    },
     "homarr": {
       "app_readme": "<p>Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/homarr\">https://truecharts.org/charts/stable/homarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -717,37 +748,6 @@
         "https://github.com/HaveAGitGat/Tdarr"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr.png"
-    },
-    "zerotier": {
-      "app_readme": "<p>ZeroTier is a smart programmable Ethernet switch for planet Earth</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/zerotier\">https://truecharts.org/charts/stable/zerotier</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "network"
-      ],
-      "description": "ZeroTier is a smart programmable Ethernet switch for planet Earth",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/stable/zerotier",
-      "location": "/home/runner/work/catalog/catalog/stable/zerotier",
-      "latest_version": "6.0.0",
-      "latest_app_version": "1.10.6",
-      "latest_human_version": "1.10.6_6.0.0",
-      "last_update": "2023-08-03 09:58:27",
-      "name": "zerotier",
-      "recommended": false,
-      "title": "Zerotier",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/stable/zerotier"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/zerotier.png"
     }
   },
   "incubator": {
