@@ -525,7 +525,6 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png"
     },
-    "owncloud-ocis": null,
     "heimdall": {
       "app_readme": "<p>An Application dashboard and launcher</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/heimdall\">https://truecharts.org/charts/stable/heimdall</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -784,6 +783,38 @@
         "https://goauthentik.io/docs/"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/authentik.png"
+    },
+    "owncloud-ocis": {
+      "app_readme": "<p>ownCloud Infinite Scale is a self-hosted file sync and share server.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/owncloud-ocis\">https://truecharts.org/charts/incubator/owncloud-ocis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "media"
+      ],
+      "description": "ownCloud Infinite Scale is a self-hosted file sync and share server.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/incubator/owncloud-ocis",
+      "location": "/home/runner/work/catalog/catalog/incubator/owncloud-ocis",
+      "latest_version": "11.0.19",
+      "latest_app_version": "3.0.0",
+      "latest_human_version": "3.0.0_11.0.19",
+      "last_update": "2023-08-03 09:58:27",
+      "name": "owncloud-ocis",
+      "recommended": false,
+      "title": "Owncloud-ocis",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/incubator/owncloud-ocis",
+        "https://owncloud.dev/ocis/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/owncloud-ocis.png"
     }
   },
   "enterprise": {
