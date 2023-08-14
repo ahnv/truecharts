@@ -1,29 +1,29 @@
 apiVersion: v2
-appVersion: "1.6.21"
+appVersion: "7.0.12"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
     version: 14.0.1
 deprecated: false
-description: Memcached is a memory-backed database caching solution
-home: https://truecharts.org/charts/dependency/memcached
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+description: Open source, advanced key-value store.
+home: https://truecharts.org/charts/dependency/redis
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
 keywords:
-  - memcached
+  - redis
+  - keyvalue
   - database
-  - cache
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: memcached
+name: redis
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
-  - https://github.com/bitnami/bitnami-docker-memcached
-  - http://memcached.org/
+  - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+  - https://github.com/bitnami/bitnami-docker-redis
+  - http://redis.io/
 type: application
-version: 8.0.4
+version: 8.0.6
 annotations:
   truecharts.org/catagories: |
     - database
