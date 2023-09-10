@@ -1,25 +1,25 @@
 apiVersion: v2
-appVersion: "1.6.1"
+appVersion: "2.10.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
     version: 14.0.6
 deprecated: false
-description: Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.
-home: https://truecharts.org/charts/dependency/node-exporter
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png
+description: kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
+home: https://truecharts.org/charts/dependency/kube-state-metrics
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
 keywords:
   - prometheus
-  - node-exporter
+  - kube-state-metrics
   - monitoring
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: node-exporter
+name: kube-state-metrics
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
+  - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
 type: application
 version: 3.0.14
 annotations:
