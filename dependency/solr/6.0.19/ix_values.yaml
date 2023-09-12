@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/solr
   pullPolicy: IfNotPresent
-  tag: v9.3.0@sha256:313aaf51db4c4013c5d4600680e59925cec640412a108858d176680fbefa0cf3
+  tag: v9.3.0@sha256:d80b9dce74dc74fd25f912397556b1529a6caf5186ddfe1cd1200029ef80bbcc
 
 workload:
   main:
