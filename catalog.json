@@ -15,7 +15,7 @@
       "latest_version": "2.0.3",
       "latest_app_version": "1.20.2",
       "latest_human_version": "1.20.2_2.0.3",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "cloudnative-pg",
       "recommended": false,
       "title": "Cloudnative-pg",
@@ -48,7 +48,7 @@
       "latest_version": "10.0.5",
       "latest_app_version": "0.13.11",
       "latest_human_version": "0.13.11_10.0.5",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "metallb",
       "recommended": false,
       "title": "Metallb",
@@ -81,7 +81,7 @@
       "latest_version": "1.0.6",
       "latest_app_version": "0.68.0",
       "latest_human_version": "0.68.0_1.0.6",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "prometheus-operator",
       "recommended": false,
       "title": "Prometheus-operator",
@@ -113,7 +113,7 @@
       "latest_version": "1.0.4",
       "latest_app_version": "latest",
       "latest_human_version": "latest_1.0.4",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "cert-manager",
       "recommended": false,
       "title": "Cert-manager",
@@ -135,103 +135,6 @@
     }
   },
   "dependency": {
-    "node-exporter": {
-      "app_readme": "<p>Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/node-exporter\">https://truecharts.org/charts/dependency/node-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "metrics"
-      ],
-      "description": "Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/node-exporter",
-      "location": "/home/runner/work/catalog/catalog/dependency/node-exporter",
-      "latest_version": "3.0.30",
-      "latest_app_version": "1.6.1",
-      "latest_human_version": "1.6.1_3.0.30",
-      "last_update": "2023-10-25 23:45:01",
-      "name": "node-exporter",
-      "recommended": false,
-      "title": "Node-exporter",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png"
-    },
-    "clickhouse": {
-      "app_readme": "<p>ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/clickhouse\">https://truecharts.org/charts/dependency/clickhouse</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "database"
-      ],
-      "description": "ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/clickhouse",
-      "location": "/home/runner/work/catalog/catalog/dependency/clickhouse",
-      "latest_version": "7.0.13",
-      "latest_app_version": "23.9.2.56",
-      "latest_human_version": "23.9.2.56_7.0.13",
-      "last_update": "2023-10-25 23:45:01",
-      "name": "clickhouse",
-      "recommended": false,
-      "title": "Clickhouse",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse",
-        "https://clickhouse.com/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png"
-    },
-    "redis": {
-      "app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "database",
-        "cache"
-      ],
-      "description": "Open source, advanced key-value store.",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/redis",
-      "location": "/home/runner/work/catalog/catalog/dependency/redis",
-      "latest_version": "8.0.34",
-      "latest_app_version": "7.2.2",
-      "latest_human_version": "7.2.2_8.0.34",
-      "last_update": "2023-10-25 23:45:01",
-      "name": "redis",
-      "recommended": false,
-      "title": "Redis",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
-        "https://github.com/bitnami/bitnami-docker-redis",
-        "http://redis.io/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
-    },
     "mariadb": {
       "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -245,7 +148,7 @@
       "latest_version": "9.0.31",
       "latest_app_version": "11.1.2",
       "latest_human_version": "11.1.2_9.0.31",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "mariadb",
       "recommended": false,
       "title": "Mariadb",
@@ -266,23 +169,23 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
-    "mongodb": {
-      "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+    "solr": {
+      "app_readme": "<p>Apache Solr</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/solr\">https://truecharts.org/charts/dependency/solr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
-        "database"
+        "search"
       ],
-      "description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
+      "description": "Apache Solr",
       "healthy": true,
       "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/mongodb",
-      "location": "/home/runner/work/catalog/catalog/dependency/mongodb",
-      "latest_version": "8.0.29",
-      "latest_app_version": "7.0.2",
-      "latest_human_version": "7.0.2_8.0.29",
-      "last_update": "2023-10-25 23:45:01",
-      "name": "mongodb",
+      "home": "https://truecharts.org/charts/dependency/solr",
+      "location": "/home/runner/work/catalog/catalog/dependency/solr",
+      "latest_version": "6.0.32",
+      "latest_app_version": "9.4.0",
+      "latest_human_version": "9.4.0_6.0.32",
+      "last_update": "2023-10-26 22:47:31",
+      "name": "solr",
       "recommended": false,
-      "title": "Mongodb",
+      "title": "Solr",
       "maintainers": [
         {
           "email": "info@truecharts.org",
@@ -293,11 +196,42 @@
       "tags": [],
       "screenshots": [],
       "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb",
-        "https://github.com/bitnami/bitnami-docker-mongodb",
-        "https://www.mongodb.com"
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/solr",
+        "https://github.com/apache/solr"
       ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/solr.png"
+    },
+    "clickhouse": {
+      "app_readme": "<p>ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/clickhouse\">https://truecharts.org/charts/dependency/clickhouse</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "database"
+      ],
+      "description": "ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/clickhouse",
+      "location": "/home/runner/work/catalog/catalog/dependency/clickhouse",
+      "latest_version": "7.0.13",
+      "latest_app_version": "23.9.2.56",
+      "latest_human_version": "23.9.2.56_7.0.13",
+      "last_update": "2023-10-26 22:47:31",
+      "name": "clickhouse",
+      "recommended": false,
+      "title": "Clickhouse",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse",
+        "https://clickhouse.com/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png"
     },
     "memcached": {
       "app_readme": "<p>Memcached is a memory-backed database caching solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/memcached\">https://truecharts.org/charts/dependency/memcached</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -313,7 +247,7 @@
       "latest_version": "8.0.32",
       "latest_app_version": "1.6.22",
       "latest_human_version": "1.6.22_8.0.32",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "memcached",
       "recommended": false,
       "title": "Memcached",
@@ -333,6 +267,104 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png"
     },
+    "redis": {
+      "app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "database",
+        "cache"
+      ],
+      "description": "Open source, advanced key-value store.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/redis",
+      "location": "/home/runner/work/catalog/catalog/dependency/redis",
+      "latest_version": "8.0.34",
+      "latest_app_version": "7.2.2",
+      "latest_human_version": "7.2.2_8.0.34",
+      "last_update": "2023-10-26 22:47:31",
+      "name": "redis",
+      "recommended": false,
+      "title": "Redis",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
+        "https://github.com/bitnami/bitnami-docker-redis",
+        "http://redis.io/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
+    },
+    "mongodb": {
+      "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "database"
+      ],
+      "description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/mongodb",
+      "location": "/home/runner/work/catalog/catalog/dependency/mongodb",
+      "latest_version": "8.0.29",
+      "latest_app_version": "7.0.2",
+      "latest_human_version": "7.0.2_8.0.29",
+      "last_update": "2023-10-26 22:47:31",
+      "name": "mongodb",
+      "recommended": false,
+      "title": "Mongodb",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb",
+        "https://github.com/bitnami/bitnami-docker-mongodb",
+        "https://www.mongodb.com"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
+    },
+    "node-exporter": {
+      "app_readme": "<p>Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/node-exporter\">https://truecharts.org/charts/dependency/node-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "metrics"
+      ],
+      "description": "Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/node-exporter",
+      "location": "/home/runner/work/catalog/catalog/dependency/node-exporter",
+      "latest_version": "3.0.30",
+      "latest_app_version": "1.6.1",
+      "latest_human_version": "1.6.1_3.0.30",
+      "last_update": "2023-10-26 22:47:31",
+      "name": "node-exporter",
+      "recommended": false,
+      "title": "Node-exporter",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png"
+    },
     "kube-state-metrics": {
       "app_readme": "<p>kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/kube-state-metrics\">https://truecharts.org/charts/dependency/kube-state-metrics</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -346,7 +378,7 @@
       "latest_version": "3.0.28",
       "latest_app_version": "2.10.0",
       "latest_human_version": "2.10.0_3.0.28",
-      "last_update": "2023-10-25 23:45:01",
+      "last_update": "2023-10-26 22:47:31",
       "name": "kube-state-metrics",
       "recommended": false,
       "title": "Kube-state-metrics",
@@ -363,38 +395,6 @@
         "https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png"
-    },
-    "solr": {
-      "app_readme": "<p>Apache Solr</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/solr\">https://truecharts.org/charts/dependency/solr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "search"
-      ],
-      "description": "Apache Solr",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/solr",
-      "location": "/home/runner/work/catalog/catalog/dependency/solr",
-      "latest_version": "6.0.32",
-      "latest_app_version": "9.4.0",
-      "latest_human_version": "9.4.0_6.0.32",
-      "last_update": "2023-10-25 23:45:01",
-      "name": "solr",
-      "recommended": false,
-      "title": "Solr",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/solr",
-        "https://github.com/apache/solr"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/solr.png"
     }
   },
   "stable": {},
