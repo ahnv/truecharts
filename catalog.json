@@ -2,23 +2,23 @@
   "charts": {},
   "test": {},
   "operators": {
-    "metallb": {
-      "app_readme": "<p>A network load-balancer implementation for Kubernetes using standard routing protocols</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/metallb\">https://truecharts.org/charts/operators/metallb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+    "cloudnative-pg": {
+      "app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cloudnative-pg\">https://truecharts.org/charts/operators/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
         "operators"
       ],
-      "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
+      "description": "CloudNativePG is a clustered postgresql database operator",
       "healthy": true,
       "healthy_error": null,
-      "home": "https://truecharts.org/charts/operators/metallb",
-      "location": "/home/runner/work/catalog/catalog/operators/metallb",
-      "latest_version": "11.0.0",
-      "latest_app_version": "0.13.12",
-      "latest_human_version": "0.13.12_11.0.0",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "metallb",
+      "home": "https://truecharts.org/charts/operators/cloudnative-pg",
+      "location": "/home/runner/work/catalog/catalog/operators/cloudnative-pg",
+      "latest_version": "3.0.0",
+      "latest_app_version": "1.21.1",
+      "latest_human_version": "1.21.1_3.0.0",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "cloudnative-pg",
       "recommended": false,
-      "title": "Metallb",
+      "title": "Cloudnative-pg",
       "maintainers": [
         {
           "email": "info@truecharts.org",
@@ -29,11 +29,11 @@
       "tags": [],
       "screenshots": [],
       "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/operators/metallb",
-        "https://github.com/metallb/metallb",
-        "https://metallb.universe.tf"
+        "https://github.com/truecharts/charts/tree/master/charts/operators/cloudnative-pg",
+        "https://github.com/cloudnative-pg",
+        "https://cloudnative-pg.io/"
       ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png"
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png"
     },
     "cert-manager": {
       "app_readme": "<p>Cert-Manager is a kubernetes-aware certificate manager</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cert-manager\">https://truecharts.org/charts/operators/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -48,7 +48,7 @@
       "latest_version": "1.1.7",
       "latest_app_version": "latest",
       "latest_human_version": "latest_1.1.7",
-      "last_update": "2023-11-16 23:42:06",
+      "last_update": "2023-11-17 22:37:57",
       "name": "cert-manager",
       "recommended": false,
       "title": "Cert-manager",
@@ -68,6 +68,39 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
     },
+    "metallb": {
+      "app_readme": "<p>A network load-balancer implementation for Kubernetes using standard routing protocols</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/metallb\">https://truecharts.org/charts/operators/metallb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "operators"
+      ],
+      "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/operators/metallb",
+      "location": "/home/runner/work/catalog/catalog/operators/metallb",
+      "latest_version": "11.0.0",
+      "latest_app_version": "0.13.12",
+      "latest_human_version": "0.13.12_11.0.0",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "metallb",
+      "recommended": false,
+      "title": "Metallb",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/operators/metallb",
+        "https://github.com/metallb/metallb",
+        "https://metallb.universe.tf"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png"
+    },
     "prometheus-operator": {
       "app_readme": "<p>Prometheus Operator is an operator for prometheus</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/prometheus-operator\">https://truecharts.org/charts/operators/prometheus-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -81,7 +114,7 @@
       "latest_version": "1.0.14",
       "latest_app_version": "0.69.0",
       "latest_human_version": "0.69.0_1.0.14",
-      "last_update": "2023-11-16 23:42:06",
+      "last_update": "2023-11-17 22:37:57",
       "name": "prometheus-operator",
       "recommended": false,
       "title": "Prometheus-operator",
@@ -99,59 +132,26 @@
         "https://github.com/prometheus-operator"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png"
-    },
-    "cloudnative-pg": {
-      "app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cloudnative-pg\">https://truecharts.org/charts/operators/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "operators"
-      ],
-      "description": "CloudNativePG is a clustered postgresql database operator",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/operators/cloudnative-pg",
-      "location": "/home/runner/work/catalog/catalog/operators/cloudnative-pg",
-      "latest_version": "3.0.0",
-      "latest_app_version": "1.21.1",
-      "latest_human_version": "1.21.1_3.0.0",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "cloudnative-pg",
-      "recommended": false,
-      "title": "Cloudnative-pg",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/operators/cloudnative-pg",
-        "https://github.com/cloudnative-pg",
-        "https://cloudnative-pg.io/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png"
     }
   },
   "dependency": {
-    "kube-state-metrics": {
-      "app_readme": "<p>kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/kube-state-metrics\">https://truecharts.org/charts/dependency/kube-state-metrics</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+    "redis": {
+      "app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
-        "metrics"
+        "database"
       ],
-      "description": "kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.",
+      "description": "Open source, advanced key-value store.",
       "healthy": true,
       "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/kube-state-metrics",
-      "location": "/home/runner/work/catalog/catalog/dependency/kube-state-metrics",
-      "latest_version": "3.0.40",
-      "latest_app_version": "2.10.1",
-      "latest_human_version": "2.10.1_3.0.40",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "kube-state-metrics",
+      "home": "https://truecharts.org/charts/dependency/redis",
+      "location": "/home/runner/work/catalog/catalog/dependency/redis",
+      "latest_version": "8.0.47",
+      "latest_app_version": "7.2.3",
+      "latest_human_version": "7.2.3_8.0.47",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "redis",
       "recommended": false,
-      "title": "Kube-state-metrics",
+      "title": "Redis",
       "maintainers": [
         {
           "email": "info@truecharts.org",
@@ -162,9 +162,11 @@
       "tags": [],
       "screenshots": [],
       "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics"
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
+        "https://github.com/bitnami/bitnami-docker-redis",
+        "http://redis.io/"
       ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png"
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
     },
     "node-exporter": {
       "app_readme": "<p>Prometheus exporter for hardware and OS metrics exposed by UNIX kernels, with pluggable metric collectors.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/node-exporter\">https://truecharts.org/charts/dependency/node-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -176,10 +178,10 @@
       "healthy_error": null,
       "home": "https://truecharts.org/charts/dependency/node-exporter",
       "location": "/home/runner/work/catalog/catalog/dependency/node-exporter",
-      "latest_version": "3.0.42",
+      "latest_version": "3.0.43",
       "latest_app_version": "1.7.0",
-      "latest_human_version": "1.7.0_3.0.42",
-      "last_update": "2023-11-16 23:42:06",
+      "latest_human_version": "1.7.0_3.0.43",
+      "last_update": "2023-11-17 22:37:57",
       "name": "node-exporter",
       "recommended": false,
       "title": "Node-exporter",
@@ -197,39 +199,6 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png"
     },
-    "memcached": {
-      "app_readme": "<p>Memcached is a memory-backed database caching solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/memcached\">https://truecharts.org/charts/dependency/memcached</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "database"
-      ],
-      "description": "Memcached is a memory-backed database caching solution",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/memcached",
-      "location": "/home/runner/work/catalog/catalog/dependency/memcached",
-      "latest_version": "8.0.43",
-      "latest_app_version": "1.6.22",
-      "latest_human_version": "1.6.22_8.0.43",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "memcached",
-      "recommended": false,
-      "title": "Memcached",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/memcached",
-        "https://github.com/bitnami/bitnami-docker-memcached",
-        "http://memcached.org/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png"
-    },
     "mariadb": {
       "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -240,10 +209,10 @@
       "healthy_error": null,
       "home": "https://truecharts.org/charts/dependency/mariadb",
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
-      "latest_version": "9.0.42",
+      "latest_version": "9.0.43",
       "latest_app_version": "11.1.3",
-      "latest_human_version": "11.1.3_9.0.42",
-      "last_update": "2023-11-16 23:42:06",
+      "latest_human_version": "11.1.3_9.0.43",
+      "last_update": "2023-11-17 22:37:57",
       "name": "mariadb",
       "recommended": false,
       "title": "Mariadb",
@@ -264,6 +233,70 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
+    "kube-state-metrics": {
+      "app_readme": "<p>kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/kube-state-metrics\">https://truecharts.org/charts/dependency/kube-state-metrics</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "metrics"
+      ],
+      "description": "kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/kube-state-metrics",
+      "location": "/home/runner/work/catalog/catalog/dependency/kube-state-metrics",
+      "latest_version": "3.0.41",
+      "latest_app_version": "2.10.1",
+      "latest_human_version": "2.10.1_3.0.41",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "kube-state-metrics",
+      "recommended": false,
+      "title": "Kube-state-metrics",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png"
+    },
+    "memcached": {
+      "app_readme": "<p>Memcached is a memory-backed database caching solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/memcached\">https://truecharts.org/charts/dependency/memcached</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "database"
+      ],
+      "description": "Memcached is a memory-backed database caching solution",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/memcached",
+      "location": "/home/runner/work/catalog/catalog/dependency/memcached",
+      "latest_version": "8.0.44",
+      "latest_app_version": "1.6.22",
+      "latest_human_version": "1.6.22_8.0.44",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "memcached",
+      "recommended": false,
+      "title": "Memcached",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/memcached",
+        "https://github.com/bitnami/bitnami-docker-memcached",
+        "http://memcached.org/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png"
+    },
     "solr": {
       "app_readme": "<p>Apache Solr</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/solr\">https://truecharts.org/charts/dependency/solr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -274,10 +307,10 @@
       "healthy_error": null,
       "home": "https://truecharts.org/charts/dependency/solr",
       "location": "/home/runner/work/catalog/catalog/dependency/solr",
-      "latest_version": "6.0.43",
+      "latest_version": "6.0.45",
       "latest_app_version": "9.4.0",
-      "latest_human_version": "9.4.0_6.0.43",
-      "last_update": "2023-11-16 23:42:06",
+      "latest_human_version": "9.4.0_6.0.45",
+      "last_update": "2023-11-17 22:37:57",
       "name": "solr",
       "recommended": false,
       "title": "Solr",
@@ -296,71 +329,6 @@
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/solr.png"
     },
-    "redis": {
-      "app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "database"
-      ],
-      "description": "Open source, advanced key-value store.",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/redis",
-      "location": "/home/runner/work/catalog/catalog/dependency/redis",
-      "latest_version": "8.0.46",
-      "latest_app_version": "7.2.3",
-      "latest_human_version": "7.2.3_8.0.46",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "redis",
-      "recommended": false,
-      "title": "Redis",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
-        "https://github.com/bitnami/bitnami-docker-redis",
-        "http://redis.io/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
-    },
-    "clickhouse": {
-      "app_readme": "<p>ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/clickhouse\">https://truecharts.org/charts/dependency/clickhouse</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "categories": [
-        "database"
-      ],
-      "description": "ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).",
-      "healthy": true,
-      "healthy_error": null,
-      "home": "https://truecharts.org/charts/dependency/clickhouse",
-      "location": "/home/runner/work/catalog/catalog/dependency/clickhouse",
-      "latest_version": "7.0.27",
-      "latest_app_version": "23.10.3.5",
-      "latest_human_version": "23.10.3.5_7.0.27",
-      "last_update": "2023-11-16 23:42:06",
-      "name": "clickhouse",
-      "recommended": false,
-      "title": "Clickhouse",
-      "maintainers": [
-        {
-          "email": "info@truecharts.org",
-          "name": "TrueCharts",
-          "url": "https://truecharts.org"
-        }
-      ],
-      "tags": [],
-      "screenshots": [],
-      "sources": [
-        "https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse",
-        "https://clickhouse.com/"
-      ],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png"
-    },
     "mongodb": {
       "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
       "categories": [
@@ -371,10 +339,10 @@
       "healthy_error": null,
       "home": "https://truecharts.org/charts/dependency/mongodb",
       "location": "/home/runner/work/catalog/catalog/dependency/mongodb",
-      "latest_version": "8.0.43",
+      "latest_version": "8.0.46",
       "latest_app_version": "7.0.3",
-      "latest_human_version": "7.0.3_8.0.43",
-      "last_update": "2023-11-16 23:42:06",
+      "latest_human_version": "7.0.3_8.0.46",
+      "last_update": "2023-11-17 22:37:57",
       "name": "mongodb",
       "recommended": false,
       "title": "Mongodb",
@@ -393,6 +361,38 @@
         "https://www.mongodb.com"
       ],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
+    },
+    "clickhouse": {
+      "app_readme": "<p>ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/clickhouse\">https://truecharts.org/charts/dependency/clickhouse</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+        "database"
+      ],
+      "description": "ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/dependency/clickhouse",
+      "location": "/home/runner/work/catalog/catalog/dependency/clickhouse",
+      "latest_version": "7.0.29",
+      "latest_app_version": "23.10.4.25",
+      "latest_human_version": "23.10.4.25_7.0.29",
+      "last_update": "2023-11-17 22:37:57",
+      "name": "clickhouse",
+      "recommended": false,
+      "title": "Clickhouse",
+      "maintainers": [
+        {
+          "email": "info@truecharts.org",
+          "name": "TrueCharts",
+          "url": "https://truecharts.org"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/truecharts/charts/tree/master/charts/dependency/clickhouse",
+        "https://clickhouse.com/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.png"
     }
   },
   "stable": {},
