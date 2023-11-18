@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/clickhouse/7.0.29",
-        "last_update": "2023-11-17 22:37:57",
+        "last_update": "2023-11-17 23:33:13",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "23.10.4.25_7.0.29",
         "version": "7.0.29",
